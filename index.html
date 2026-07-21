@@ -163,8 +163,33 @@
     <main class="relative z-10 pt-32 md:pt-20">
         
         <!-- Hero Section -->
-        <section class="py-20 md:py-32 flex items-center justify-start px-6 pb-0">
-            <div class="max-w-7xl mx-auto w-full md:pl-10">
+        <section class="py-20 md:py-32 flex items-center justify-start px-6 pb-0 md:mt-4">
+            <div class="max-w-7xl mx-auto w-full md:pl-10 relative">
+                
+                <!-- Highly Highlighted Achievement Badge -->
+                <div class="animate-fade-up" style="animation-delay: 0.2s;">
+                    <div class="inline-flex items-center gap-4 bg-gradient-to-r from-amber-500/20 via-orange-500/10 to-transparent border border-amber-500/50 rounded-full py-2.5 px-5 backdrop-blur-md cursor-default hover-trigger mb-8 shadow-[0_0_25px_rgba(245,158,11,0.15)] relative overflow-hidden group">
+                        
+                        <!-- Subtle shine effect on hover -->
+                        <div class="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:translate-x-full transition-transform duration-1000 ease-in-out"></div>
+                        
+                        <!-- Trophy Icon -->
+                        <div class="flex items-center justify-center p-2.5 bg-gradient-to-br from-amber-400 to-orange-600 rounded-full text-white shadow-lg shadow-amber-500/40 relative z-10">
+                            <i data-lucide="trophy" class="w-5 h-5"></i>
+                        </div>
+                        
+                        <!-- Text -->
+                        <div class="pr-3 relative z-10">
+                            <p class="text-amber-400 text-[13px] md:text-sm font-manrope font-extrabold leading-tight tracking-wider uppercase mb-0.5">
+                                PM VISION TO ART WINNER
+                            </p>
+                            <p class="text-slate-200 text-[11px] md:text-xs font-poppins leading-tight">
+                                Department of Cultural Affairs, Govt. of Maharashtra
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Responsive Heading Size -->
                 <h1 class="text-4xl md:text-[62px] text-white mb-6 tracking-tight leading-tight cursor-default" style="font-family: 'Times New Roman', Times, serif;">
                     Hey, I'm <span class="font-bold">Rohit Raj</span> <br/>
@@ -175,6 +200,7 @@
                 </p>
             </div>
         </section>
+
 
         <!-- Case Study Section -->
         <section class="pt-4 pb-16 px-6">
